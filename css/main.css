@@ -31,7 +31,45 @@ header .header-icons-container .icons {
   display: flex;
   justify-items: flex-end;
   align-items: center;
-  justify-content: space-between;
   justify-self: end;
-  margin-right: 50px;
+  margin-right: 20px;
+}
+.icons a {
+  margin-right: 30px;
+}
+.icons .icons-facebook {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background-image: url("/assets/icons/facebook.svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.icons .icons-twitter {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background-image: url("/assets/icons/twitter.svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.icons .icons-instagram {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background-image: url("/assets/icons/instagram.svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.icons .icons-linkedin {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background-image: url("/assets/icons/linkedin.svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
