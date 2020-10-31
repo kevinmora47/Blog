@@ -7,6 +7,8 @@ body {
   bottom: 0;
   right: 0;
   left: 0;
+  font-family: "Inter", sans-serif;
+  font-size: 62.5%;
 }
 a {
   text-decoration: none;
@@ -15,7 +17,7 @@ a {
 }
 header {
   width: 100%;
-  height: 150px;
+  height: 100px;
   display: grid;
   grid-template-rows: 1fr 1fr;
 }
@@ -23,7 +25,8 @@ header .header-icons-container {
   width: 100%;
   height: 50px;
   display: grid;
-  background-color: #47cfac;
+  background: linear-gradient(207.8deg, #54d0a2 16.69%, #b288eb 100%);
+  background-color: #54d0a2;
 }
 header .header-icons-container .icons {
   width: 300px;
@@ -72,4 +75,54 @@ header .header-icons-container .icons {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 90px;
+}
+nav .nav-logo-container .logo img {
+  height: 60px;
+  margin-top: 10px;
+}
+nav .nav-logo-container {
+  margin-left: 50px;
+}
+nav .nav-profile-link {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 30px;
+}
+nav .nav-profile-link a {
+  color: black;
+  text-decoration: underline;
+}
+main {
+  display: flex;
+  margin-top: 30px;
+}
+.main-image-container {
+  display: flex;
+  justify-content: ;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 90vh;
+  background-image: url("/assets/img/hero.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.9;
+}
+.main-image-container button {
+  width: 100px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: #b288eb;
+  color: white;
+}
+h1 {
+  color: white;
+  font-size: 4.6rem;
 }
